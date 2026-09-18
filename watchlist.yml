@@ -1,0 +1,39 @@
+core:
+  - SPY
+  - SPXL
+  - QQQ
+  - IWM
+  - DIA
+  - NVDA
+  - AVGO
+  - AMD
+  - INTC
+  - MU
+  - COHR
+  - LITE
+  - DELL
+  - META
+  - AAPL
+  - MSFT
+  - AMZN
+  - GOOGL
+  - TSLA
+  - COIN
+  - HOOD
+
+include_sp500: true
+
+extra:
+  - CRWD
+  - PANW
+  - NOW
+  - SNOW
+  - MDB
+  - PLTR
+  - NBIS
+  - IREN
+  - BE
+  - GNRC
+  - FLNC
+  - ARM
+  - MRVL
