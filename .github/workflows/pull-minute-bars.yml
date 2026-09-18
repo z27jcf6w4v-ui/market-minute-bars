@@ -11,13 +11,10 @@ permissions:
   contents: write
 
 jobs:
-
   collect:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -37,27 +34,14 @@ jobs:
           from datetime import datetime
           from zoneinfo import ZoneInfo
 
-          now = datetime.now(
-              ZoneInfo("America/New_York")
-          )
+          now = datetime.now(ZoneInfo("America/New_York"))
+          ok = now.weekday() < 5 and now.hour == 16 and now.minute >= 15
 
-          ok = (
-    now.weekday() < 5
-    and now.hour == 16
-    and now.minute >= 15
-)
           print("Current ET:", now)
           print("Run collection:", ok)
 
-          with open(
-              "/tmp/run_status.txt",
-              "w"
-          ) as f:
-              f.write(
-                  "true"
-                  if ok
-                  else "false"
-              )
+          with open("/tmp/run_status.txt", "w") as f:
+              f.write("true" if ok else "false")
           PY
 
           echo "run=$(cat /tmp/run_status.txt)" >> "$GITHUB_OUTPUT"
