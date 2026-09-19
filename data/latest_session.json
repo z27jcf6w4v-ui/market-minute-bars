@@ -103,10 +103,10 @@
       "closing_ema9": 274.088,
       "closing_ema20": 272.4759,
       "pattern_auto": "Trend Up",
-      "prior_close": 264.9,
-      "opening_gap_pct": 1.786,
-      "close_to_close_pct": 4.096,
-      "gap_retention_ratio": 2.294
+      "prior_close": 243.98,
+      "opening_gap_pct": 10.513,
+      "close_to_close_pct": 13.022,
+      "gap_retention_ratio": 1.239
     },
     {
       "symbol": "AVGO",
@@ -155,10 +155,10 @@
       "closing_ema9": 266.5667,
       "closing_ema20": 267.6817,
       "pattern_auto": "Trend Down",
-      "prior_close": 280.76,
-      "opening_gap_pct": 1.268,
-      "close_to_close_pct": -5.396,
-      "gap_retention_ratio": -4.256
+      "prior_close": 270.02,
+      "opening_gap_pct": 5.296,
+      "close_to_close_pct": -1.633,
+      "gap_retention_ratio": -0.308
     },
     {
       "symbol": "COHR",
@@ -207,10 +207,10 @@
       "closing_ema9": 193.917,
       "closing_ema20": 193.9877,
       "pattern_auto": "Trend Up",
-      "prior_close": 173.97,
-      "opening_gap_pct": 2.406,
-      "close_to_close_pct": 11.672,
-      "gap_retention_ratio": 4.852
+      "prior_close": 164.51,
+      "opening_gap_pct": 8.294,
+      "close_to_close_pct": 18.093,
+      "gap_retention_ratio": 2.181
     },
     {
       "symbol": "CRWD",
@@ -233,10 +233,10 @@
       "closing_ema9": 237.7337,
       "closing_ema20": 238.0027,
       "pattern_auto": "Trend Down",
-      "prior_close": 245.7,
-      "opening_gap_pct": 0.696,
-      "close_to_close_pct": -3.289,
-      "gap_retention_ratio": -4.725
+      "prior_close": 241.36,
+      "opening_gap_pct": 2.507,
+      "close_to_close_pct": -1.55,
+      "gap_retention_ratio": -0.618
     },
     {
       "symbol": "DELL",
@@ -259,10 +259,10 @@
       "closing_ema9": 571.4056,
       "closing_ema20": 571.8648,
       "pattern_auto": "Trend Down",
-      "prior_close": 588.4,
-      "opening_gap_pct": 0.807,
-      "close_to_close_pct": -3.377,
-      "gap_retention_ratio": -4.183
+      "prior_close": 563.29,
+      "opening_gap_pct": 5.301,
+      "close_to_close_pct": 0.93,
+      "gap_retention_ratio": 0.175
     },
     {
       "symbol": "DIA",
@@ -311,10 +311,10 @@
       "closing_ema9": 7.3279,
       "closing_ema20": 7.3332,
       "pattern_auto": "Reversal/Mixed",
-      "prior_close": 7.66,
-      "opening_gap_pct": -1.632,
-      "close_to_close_pct": -4.634,
-      "gap_retention_ratio": 2.84
+      "prior_close": 9.05,
+      "opening_gap_pct": -16.74,
+      "close_to_close_pct": -19.282,
+      "gap_retention_ratio": 1.152
     },
     {
       "symbol": "GNRC",
@@ -389,10 +389,10 @@
       "closing_ema9": 119.6199,
       "closing_ema20": 119.4721,
       "pattern_auto": "Trend Up",
-      "prior_close": 109.81,
-      "opening_gap_pct": 3.379,
-      "close_to_close_pct": 9.125,
-      "gap_retention_ratio": 2.701
+      "prior_close": 104.42,
+      "opening_gap_pct": 8.715,
+      "close_to_close_pct": 14.758,
+      "gap_retention_ratio": 1.693
     },
     {
       "symbol": "INTC",
@@ -441,10 +441,10 @@
       "closing_ema9": 46.5533,
       "closing_ema20": 46.3983,
       "pattern_auto": "Trend Up",
-      "prior_close": 43.48,
-      "opening_gap_pct": 2.875,
-      "close_to_close_pct": 7.383,
-      "gap_retention_ratio": 2.568
+      "prior_close": 42.62,
+      "opening_gap_pct": 4.951,
+      "close_to_close_pct": 9.55,
+      "gap_retention_ratio": 1.929
     },
     {
       "symbol": "IWM",
@@ -493,10 +493,10 @@
       "closing_ema9": 930.7123,
       "closing_ema20": 929.1469,
       "pattern_auto": "Reversal/Mixed",
-      "prior_close": 893.61,
-      "opening_gap_pct": 2.677,
-      "close_to_close_pct": 4.208,
-      "gap_retention_ratio": 1.572
+      "prior_close": 919.4,
+      "opening_gap_pct": -0.203,
+      "close_to_close_pct": 1.285,
+      "gap_retention_ratio": -6.335
     },
     {
       "symbol": "MDB",
@@ -519,10 +519,10 @@
       "closing_ema9": 383.7996,
       "closing_ema20": 384.2191,
       "pattern_auto": "Trend Down",
-      "prior_close": 393.42,
-      "opening_gap_pct": 1.009,
-      "close_to_close_pct": -2.552,
-      "gap_retention_ratio": -2.529
+      "prior_close": 376.34,
+      "opening_gap_pct": 5.593,
+      "close_to_close_pct": 1.871,
+      "gap_retention_ratio": 0.334
     },
     {
       "symbol": "META",
@@ -545,10 +545,10 @@
       "closing_ema9": 665.9802,
       "closing_ema20": 667.0904,
       "pattern_auto": "Trend Down",
-      "prior_close": 682.31,
-      "opening_gap_pct": 0.661,
-      "close_to_close_pct": -2.461,
-      "gap_retention_ratio": -3.723
+      "prior_close": 673.31,
+      "opening_gap_pct": 2.007,
+      "close_to_close_pct": -1.157,
+      "gap_retention_ratio": -0.577
     },
     {
       "symbol": "MRVL",
@@ -649,10 +649,10 @@
       "closing_ema9": 223.3034,
       "closing_ema20": 222.9848,
       "pattern_auto": "Trend Up",
-      "prior_close": 217.99,
-      "opening_gap_pct": 0.073,
-      "close_to_close_pct": 2.551,
-      "gap_retention_ratio": 34.753
+      "prior_close": 209.37,
+      "opening_gap_pct": 4.194,
+      "close_to_close_pct": 6.773,
+      "gap_retention_ratio": 1.615
     },
     {
       "symbol": "NOW",
@@ -675,10 +675,10 @@
       "closing_ema9": 135.5796,
       "closing_ema20": 135.9235,
       "pattern_auto": "Trend Down",
-      "prior_close": 138.47,
-      "opening_gap_pct": 0.896,
-      "close_to_close_pct": -2.414,
-      "gap_retention_ratio": -2.696
+      "prior_close": 139.82,
+      "opening_gap_pct": -0.079,
+      "close_to_close_pct": -3.356,
+      "gap_retention_ratio": 42.663
     },
     {
       "symbol": "NVDA",
@@ -727,10 +727,10 @@
       "closing_ema9": 363.1764,
       "closing_ema20": 362.7164,
       "pattern_auto": "Reversal/Mixed",
-      "prior_close": 375.06,
-      "opening_gap_pct": 0.151,
-      "close_to_close_pct": -3.064,
-      "gap_retention_ratio": -20.336
+      "prior_close": 375.65,
+      "opening_gap_pct": -0.007,
+      "close_to_close_pct": -3.216,
+      "gap_retention_ratio": null
     },
     {
       "symbol": "PLTR",
@@ -753,10 +753,10 @@
       "closing_ema9": 177.2991,
       "closing_ema20": 177.1095,
       "pattern_auto": "Range Day",
-      "prior_close": 176.24,
-      "opening_gap_pct": 0.454,
-      "close_to_close_pct": 0.726,
-      "gap_retention_ratio": 1.6
+      "prior_close": 174.34,
+      "opening_gap_pct": 1.549,
+      "close_to_close_pct": 1.824,
+      "gap_retention_ratio": 1.178
     },
     {
       "symbol": "QQQ",
@@ -805,10 +805,10 @@
       "closing_ema9": 331.8679,
       "closing_ema20": 332.2365,
       "pattern_auto": "Trend Down",
-      "prior_close": 338.39,
-      "opening_gap_pct": 0.065,
-      "close_to_close_pct": -2.007,
-      "gap_retention_ratio": -30.868
+      "prior_close": 331.02,
+      "opening_gap_pct": 2.293,
+      "close_to_close_pct": 0.175,
+      "gap_retention_ratio": 0.076
     },
     {
       "symbol": "SPXL",
