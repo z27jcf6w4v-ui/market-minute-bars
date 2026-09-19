@@ -4,8 +4,10 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '20 20 * * 1-5'
-    - cron: '20 21 * * 1-5'
+    # GitHub cron uses UTC.
+    # Multiple runs allow the New York-time guard below to handle
+    # both EDT and EST automatically.
+    - cron: '20 20,21,22 * * 1-5'
 
 permissions:
   contents: write
@@ -35,7 +37,17 @@ jobs:
           from zoneinfo import ZoneInfo
 
           now = datetime.now(ZoneInfo("America/New_York"))
-          ok = now.weekday() < 5 and now.hour == 16 and now.minute >= 15
+
+          # Scheduled collection window:
+          # Weekdays from 4:15 PM through 5:59 PM ET.
+          #
+          # workflow_dispatch (manual runs) bypasses this guard
+          # in the steps below.
+          ok = (
+              now.weekday() < 5
+              and 16 <= now.hour <= 17
+              and (now.hour > 16 or now.minute >= 15)
+          )
 
           print("Current ET:", now)
           print("Run collection:", ok)
