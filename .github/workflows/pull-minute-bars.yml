@@ -5,8 +5,15 @@ on:
 
   schedule:
     # GitHub cron uses UTC.
-    # Multiple runs allow the New York-time guard below to handle
-    # both EDT and EST automatically.
+    # Multiple scheduled runs provide redundancy.
+    # The New York-time guard below handles EDT/EST automatically.
+    #
+    # 20:20 UTC = 4:20 PM ET during EDT / 3:20 PM ET during EST
+    # 21:20 UTC = 5:20 PM ET during EDT / 4:20 PM ET during EST
+    # 22:20 UTC = 6:20 PM ET during EDT / 5:20 PM ET during EST
+    #
+    # Any scheduled run occurring after 4:15 PM ET is allowed to collect.
+    # This also protects against GitHub Actions starting a scheduled job late.
     - cron: '20 20,21,22 * * 1-5'
 
 permissions:
@@ -38,15 +45,21 @@ jobs:
 
           now = datetime.now(ZoneInfo("America/New_York"))
 
-          # Scheduled collection window:
-          # Weekdays from 4:15 PM through 5:59 PM ET.
+          # Allow scheduled collection on weekdays at any time
+          # from 4:15 PM ET onward.
           #
-          # workflow_dispatch (manual runs) bypasses this guard
-          # in the steps below.
+          # This intentionally has NO upper time limit. GitHub Actions
+          # scheduled jobs can occasionally start late. A delayed run
+          # should still collect the completed trading session rather
+          # than silently skipping it.
+          #
+          # workflow_dispatch (manual runs) bypasses this guard below.
           ok = (
               now.weekday() < 5
-              and 16 <= now.hour <= 17
-              and (now.hour > 16 or now.minute >= 15)
+              and (
+                  now.hour > 16
+                  or (now.hour == 16 and now.minute >= 15)
+              )
           )
 
           print("Current ET:", now)
