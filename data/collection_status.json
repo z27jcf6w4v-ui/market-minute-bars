@@ -1,8 +1,10 @@
 {
-  "session": "2026-10-21",
+  "session": "2026-10-22",
   "requested": 34,
-  "symbols_with_data": 34,
-  "rows": 13192,
-  "failed_symbols": [],
-  "generated_at_et": "2026-10-21T19:25:00.081938-04:00"
+  "symbols_with_data": 33,
+  "rows": 12839,
+  "failed_symbols": [
+    "PANW"
+  ],
+  "generated_at_et": "2026-10-22T19:26:29.763416-04:00"
 }
