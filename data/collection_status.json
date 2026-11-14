@@ -1,10 +1,8 @@
 {
-  "session": "2026-11-12",
+  "session": "2026-11-13",
   "requested": 34,
-  "symbols_with_data": 33,
-  "rows": 12802,
-  "failed_symbols": [
-    "NVDA"
-  ],
-  "generated_at_et": "2026-11-12T20:09:36.347060-05:00"
+  "symbols_with_data": 34,
+  "rows": 13166,
+  "failed_symbols": [],
+  "generated_at_et": "2026-11-13T19:54:36.376145-05:00"
 }
